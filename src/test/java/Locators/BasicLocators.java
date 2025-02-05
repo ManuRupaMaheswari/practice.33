@@ -13,14 +13,14 @@ public class BasicLocators {
 		driver.manage().window().maximize();
 		driver.get("https://www.facebook.com/");
 		//id
-		/*driver.findElement(By.id("email")).sendKeys("admin");
+		driver.findElement(By.id("email")).sendKeys("admin");
 		//name
 		driver.findElement(By.name("pass")).sendKeys("password");
 		//driver.findElement(By.name("login")).click();
 		Thread.sleep(1000);
 		//linktext
 		//driver.findElement(By.linkText("Log in")).click();
-		driver.findElement(By.partialLinkText("Log")).click();*/
+		driver.findElement(By.partialLinkText("Log")).click();
 		
 		//classname
 		/*driver.get("https://www.flipkart.com/");
